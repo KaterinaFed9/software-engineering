@@ -30,7 +30,7 @@ print ( ' 123 ' )
 print ( 1.23 )
 ```
 ### Результат.
-![ Меню ] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.1.png) )
+![ Меню ] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.1.png) 
 
 ## Выводы
 
@@ -50,7 +50,7 @@ print(5.1 + 8.27)
 print(3 + 7.04 + 1 + 2.33)
 ```
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.2.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.2.png)
 
 ## Выводы
 В данном коде тоже выводится три строки. Можно заметить, что можно складывать разные типы числовых данных без ошибок - как числа с плавающей точкой, так и целые.
@@ -88,7 +88,7 @@ three = None
 print(str (three))
 ```
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.4.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.4.png)
 
 ## Выводы
 Код совершает несколько действий:
@@ -105,7 +105,7 @@ three = input('three: ')
 print(one, two, three)
 ```
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.5.jpg
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.5.jpg)
 
 ## Выводы
 Этот код запрашивает у пользователя ввод трех переменных и потом выводит их на экран по порядку. 
@@ -122,7 +122,7 @@ print ('Нахождение остатка от деления: ', а % b)
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.6.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.6.png)
 
 ## Выводы
 Этот код выполняет несколько математических операций с числами 12 и 5: возведение 12 в 5 степень, обычное деление 12 на 5, целочисленное деление 12 на 5 и нахождение остатка от деления 12 на 5.
@@ -136,7 +136,7 @@ print(line * 7)
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.7.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.7.png)
 
 ## Выводы
 Этот код кмножает строковое значение в 7 раз.
@@ -150,7 +150,7 @@ print (sentence.count ('o'))
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.8.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.8.png)
 
 ## Выводы
 Этот код создает строку sentence и затем использует метод count() для подсчета количества вхождений буквы 'o' в этой строке. Результат будет напечатан на экране.
@@ -163,7 +163,7 @@ print ('Hello\nWorld')
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.9.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.9.png)
 
 ## Выводы
 Этот код выводит строку «Hello World», где между словами «Hello» и «World» вставлен перевод строки.
@@ -178,7 +178,7 @@ print (sentence [:5])
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.10.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.10.png)
 
 ## Выводы
 Этот код выводит второй символ строки 'Hello World' и первые пять символов. Индексация в строках начинается с нуля, поэтому чтобы вывести 2 символ - пишем 1.
@@ -192,7 +192,7 @@ print (not True)
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.11.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.11.png)
 
 ## Выводы
 Код выводит False, потому что not — это логический оператор, который инвертирует значение: not True становится False.
@@ -206,7 +206,7 @@ print(one, two, three)
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.12.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.12.png)
 
 ## Выводы
 Переменной one присваивается значение 1, переменной two — значение 22, а переменной three — значение 34. Значения этих переменных выводится на экран.
@@ -220,7 +220,7 @@ print (one)
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.13.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.13.png)
 
 ## Выводы
 Код позволяет ввести ТОЛЬКО целочисленные данные и выводит их на экран. В противном случае программа не работает 
@@ -234,7 +234,7 @@ print (line * 8)
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.14.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.14.png)
 
 ## Выводы
 Этот код создает строку line, которая содержит значение les, и затем выводит её на экран, повторив 8 раз.
@@ -248,7 +248,7 @@ print(f"Сегодня {d} {m} {y}. ", end= "Всего хорошего!")
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.15.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.15.png)
 
 ## Выводы
 Этот код присваивает переменным d, m, y значения 11, "сентября", 2024 соответственно. Использует f-строку для форматирования сообщения, включающего значения переменных. Выводит на экран текст "Сегодня 11 сентября 2024." без перехода на новую строку и добавляет на той же строке текст "Всего хорошего!".
@@ -262,7 +262,7 @@ print('Hello', a, 'World')
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.16.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.16.png)
 
 ## Выводы
 Переменной a присваивается строка 'my'. Функция print() выводит на экран несколько строк: сначала 'Hello', затем значение переменной a и строку 'World'. 
@@ -275,7 +275,7 @@ print(len('Hello World'))
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.17.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.17.png)
 
 ## Выводы
 С помощю функции len() вычисляется длина преложения 'hello world'
@@ -288,7 +288,7 @@ print ('HELLO WORLD' .lower())
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.18.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.18.png)
 
 ## Выводы
 К строке HELLO WORLD применяется метод .lower(), преобразуя все её символы в строчные буквы.
@@ -303,7 +303,7 @@ print(f"Ваш возраст: {b - a}")
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.19.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.19.png)
 
 ## Выводы
 Программа запрашивает у пользователя год рождения. После этого программа вычисляет возраст  и выводит результат на экран.
@@ -318,7 +318,7 @@ print("Количество символов в строке:", count)
 ```
 
 ### Результат
-![Меню] https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.20.png
+![Меню] (https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/2.20.png)
 
 ## Выводы
 Этот код просит пользователя ввести строку, считает кол-во символов и выводит на экран получившееся значние .
