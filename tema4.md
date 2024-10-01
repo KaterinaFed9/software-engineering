@@ -87,7 +87,7 @@ if __name__ == '__main__':
     print(f"\nresult={result}")
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/74396b12-bc34-4ba8-98e2-b2fee79c5220)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.4.png)
 
 
 ## Выводы
@@ -118,7 +118,7 @@ if __name__ == '__main__':
     main(**{'x':[1, 2, 3], 'y':[3, 3, 0]})
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/ca2ccfe4-83f3-4b79-95d3-bb31f7f79583)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.5.png)
 
 ## Выводы
 Предоставленный код демонстрирует использование синтаксиса **kwargs в Python, который позволяет передавать функции произвольное количество ключевых аргументов.
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     main(x=[1, 2, 3], y=[3, 3, 0])
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/8325537b-d1c7-4ed6-b787-d6e79f4fa715)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.6.png)
 
 
 ## Выводы
@@ -154,8 +154,8 @@ if __name__ == '__main__':
     say_hello()
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/7ee17528-998f-4737-9336-fb703d5ed677)
-
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.7.1.png)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.7.2.png)
 
 ## Выводы
 Функция from import позволяет выполнить код из другого файла
@@ -172,7 +172,7 @@ if __name__ == '__main__':
     main()
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/387a3f22-85ed-4f2b-a4a1-87bbde62f42b)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.8.png)
 
 
 ## Выводы
@@ -200,7 +200,7 @@ if __name__ == '__main__':
     main()
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/24f0cdbd-65ef-4daa-bec5-f781195de538)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.9.png)
 
 
 ## Выводы
@@ -227,8 +227,7 @@ elif figure == '2':
 print(f"Площадь: {result}")
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/c026ed22-3ccc-4c1e-ae22-500bd577279e)
-![image](https://github.com/user-attachments/assets/3bee293a-a360-4fa4-ba4c-ee10596a684d)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.10.png)
 
 
 ## Выводы
@@ -284,7 +283,7 @@ if __name__ == "__main__":
     roll_dice()
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/bfb7509e-8dea-413c-92f7-d4090108bfda)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.112.png)
 
 
 ## Выводы
@@ -302,7 +301,7 @@ for i in range(5):
     time.sleep(1)
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/ccb39058-f979-4e7b-b4a0-9dabbec9e772)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.13.png)
 
 
 ## Выводы
@@ -323,7 +322,7 @@ if __name__ == "__main__":
     main()
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/d1ab8f12-61f5-4ffc-b313-9d2a321f0b04)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.14.png)
 
 ## Выводы
 1. `*args:` - Любое количество числовых аргументов.
@@ -333,26 +332,27 @@ if __name__ == "__main__":
 
 ## Первый файл
 ```python
-def heron_formula(a, b, c):
-    s = (a + b + c) / 2
-    area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
-    return area
+from for_import import formula_heron
+
+a = int(input("Первая сторона: "))
+b = int(input("Вторая сторона: "))
+c = int(input("Третья сторона: "))
+
+result = formula_heron(a, b, c)
+
+if __name__ == "__main__":
+  print(f"Площадь треугольника: {result}")
 ```
 ## Второй файл
 ```python
-def average(*args):
-    if not args:
-        return 0
-    return sum(args) / len(args)
-from for_import import heron_formula
-a = float(input("Введите длину первой стороны треугольника: "))
-b = float(input("Введите длину второй стороны треугольника: "))
-c = float(input("Введите длину третьей стороны треугольника: "))
-area = heron_formula(a, b, c)
-print(f"Площадь треугольника: кв. единиц")
+from math import sqrt
+
+def formula_heron(a, b, c):
+  p = a+b+c // 2
+  return sqrt(p*(p-a)*(p-b)*(p-c))
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/218a7bab-11d8-4321-b27d-aceec935db1c)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/4.15.png)
 
 
 ## Выводы
@@ -361,27 +361,5 @@ print(f"Площадь треугольника: кв. единиц")
 В файле `main.py` мы импортируем функцию `heron_formula()` из модуля `for_import`, получаем длины сторон треугольника от пользователя, вычисляем площадь с помощью `heron_formula()` и выводим результат.
 
 ## Общие выводы по теме
-Функции и модули являются важными концепциями в программировании. Общие выводы по этой теме:
-1. Функции:
-   - Функции - это повторно используемые блоки кода, которые выполняют определенную задачу.
-   - Они помогают структурировать код, делая его более организованным и читабельным.
-   - Функции принимают аргументы, выполняют вычисления и возвращают результат.
-   - Использование функций способствует повторному использованию кода, упрощению отладки и поддержке.
 
-2. Модули:
-   - Модули - это файлы, содержащие определения функций, классов и переменных.
-   - Они позволяют организовывать код в логические блоки и обеспечивают модульность приложения.
-   - Модули могут быть импортированы в другие части программы, что способствует повторному использованию кода.
-   - Модульная структура упрощает тестирование, развертывание и поддержку программного обеспечения.
-
-3. Взаимосвязь функций и модулей:
-   - Функции определяются внутри модулей и экспортируются для использования в других частях программы.
-   - Модули позволяют группировать связанные функции и переменные в логические единицы.
-   - Совместное использование функций и модулей обеспечивает эффективную организацию и структурирование кода.
-
-4. Преимущества использования функций и модулей:
-   - Повторное использование кода
-   - Улучшение читаемости и поддержки
-   - Упрощение отладки и тестирования
-   - Повышение модульности и гибкости приложения
-   - Лучшее управление сложностью программного обеспечения
+Я углубила свои знания о функциях, их параметрах и применении. Освоил новые модули, такие как Random, DateTime и Time, а также научился подключать собственные модули к основному. Кроме того, я изучил создание **kwargs и *args, которые позволяют передавать неограниченное количество аргументов в функции.
