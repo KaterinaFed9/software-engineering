@@ -1,4 +1,4 @@
-# ТЕМА 7. Работа с файлами (ввод, вывод)
+![image](https://github.com/user-attachments/assets/c8846c2b-dbd7-48d9-bf7a-332d969e6e86)# ТЕМА 7. Работа с файлами (ввод, вывод)
 Отчет по Теме #7 выполнил(а):
 - Федоткина Екатерина Валерьевна
 - АИС-22-1
@@ -29,7 +29,7 @@
 Не хочу на тестирование 😢
 ```
 ### Результат.
-![image]([main/pic%7C/71.png](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/71.png))
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/71.png)
 
 ## Выводы
 Файл создан.
@@ -38,28 +38,28 @@
 Напишите программу, которая выведет только первую строку из вашего файла, при этом используйте конструкцию open()/close().
 
 ```python
-file = open('aaa.txt', 'r', encoding='utf-8')
+file = open('input.txt', 'r', encoding='utf-8')
 first_line = file.readline().strip()
 file.close()
 print(first_line)
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/ef18ae59-39a1-4bbd-8d70-91a2ce3869b8)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/72.png)
 
 ## Выводы
-Программа выводит первую строку файла: "Привет, мир!"
+Программа выводит первую строку файла: "Приветики-пистолетики"
 
 ## Лабораторная работа №3
 Напишите программу, которая выведет все строки из вашего файла в массиве, при этом используйте конструкцию open()/close(). 
 
 ```python
-file = open('aaa.txt', 'r', encoding='utf-8')
+file = open('input.txt', 'r', encoding='utf-8')
 lines = file.readlines()
 file.close()
 print([line.strip() for line in lines])
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/7d20c993-87c1-4706-bf5a-42c16708eb90)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/73.png)
 
 ## Выводы
 Программа выводит массив со всеми строками.
@@ -68,12 +68,11 @@ print([line.strip() for line in lines])
 Напишите программу, которая выведет все строки из вашего файла в массиве, при этом используйте конструкцию with open().
 
 ```python
-with open('aaa.txt', 'r', encoding='utf-8') as file:
-    lines = file.readlines()
-print([line.strip() for line in lines])
+with open('input.txt', 'r', encoding='utf-8') as file:
+    print(file.readlines())
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/dc04417b-a796-493a-bc13-f458d760c957)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/74.png)
 
 ## Выводы
 Программа выводит массив со всеми строками.
@@ -82,12 +81,12 @@ print([line.strip() for line in lines])
 Напишите программу, которая выведет каждую строку из вашего файла отдельно, при этом используйте конструкцию with open().
 
 ```python
-with open('aaa.txt', 'r', encoding='utf-8') as file:
+with open('input.txt', 'r', encoding='utf-8') as file:
     for line in file:
         print(line.strip())
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/106280f9-4d2a-44d6-a7f7-0d83775cd442)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/75.png)
 
 ## Выводы
 Каждая строка выводится по отдельности.
@@ -96,13 +95,13 @@ with open('aaa.txt', 'r', encoding='utf-8') as file:
 Напишите программу, которая будет добавлять новую строку в ваш файл, а потом выведет полученный файл в консоль. Вывод можно осуществлять любым способом. Обязательно проверьте сам файл, чтобы изменения в нем тоже отображались.
 
 ```python
-with open('aaa.txt', 'a', encoding='utf-8') as file:
+with open('input.txt', 'a', encoding='utf-8') as file:
     file.write('\nЭто новая строка.')
-with open('aaa.txt', 'r', encoding='utf-8') as file:
+with open('input.txt', 'r', encoding='utf-8') as file:
     print(file.read())
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/12ada5db-a37c-465e-b6b2-1e35a29fa7c4)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/76.png)
 
 ## Выводы
 Файл теперь включает новую строку. Изменения сохранены и отображены.
@@ -112,14 +111,14 @@ with open('aaa.txt', 'r', encoding='utf-8') as file:
 
 ```python
 data = ['Первая строка', 'Вторая строка', 'Третья строка']
-with open('aaa.txt', 'w', encoding='utf-8') as file:
+with open('input.txt', 'w', encoding='utf-8') as file:
     for line in data:
         file.write(line + '\n')
-with open('aaa.txt', 'r', encoding='utf-8') as file:
+with open('input.txt', 'r', encoding='utf-8') as file:
     print(file.read())
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/72f757dd-956b-46a7-a6ae-a3df08298a36)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/77.png)
 
 ## Выводы
 Файл теперь содержит новые строки из списка. Изменения сохранены.
@@ -133,10 +132,10 @@ def print_docs(directory):
     for root, dirs, files in os.walk(directory):
         for name in files:
             print(os.path.join(root, name))
-print_docs(r'C:\Users\User\PycharmProjects\lab_2')
+print_docs(r'C:\Users\User\PycharmProjects\7')
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/7fc64211-df86-44e8-a35e-80511574f23d)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/78.png)
 
 ## Выводы
 Все файлы и папки выводятся в терминал.
@@ -162,10 +161,10 @@ def max_l(filename):
         words = file.read().split()
     max_length = max(len(word) for word in words)
     return [word for word in words if len(word) == max_length]
-print(max_l('aaa.txt'))
+print(max_l('input.txt'))
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/2a4b4b40-fdf1-4e30-9d99-fa18b382a572)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/79.png)
 
 ## Выводы
 Программа выводит самое длинное слово или слова из файла.
@@ -178,7 +177,7 @@ print(max_l('aaa.txt'))
 Для наглядности на каждой итерации цикла искусственно приостанавливайте скрипт на 0,01 секунду.
 
 ```python
-import csv
+[import csv
 import time
 with open('file_csv.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
@@ -191,7 +190,7 @@ with open('file_csv.csv', 'w', newline='') as csvfile:
         time.sleep(0.01)
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/80d39144-a7bd-4833-8121-451464508697)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/710.png)
 
 ## Выводы
 CSV-файл rows_300.csv создан с указанными данными.
@@ -200,22 +199,41 @@ CSV-файл rows_300.csv создан с указанными данными.
 Найдите в интернете любую статью (объем статьи не менее 200 слов), скопируйте ее содержимое в файл и напишите программу, которая считает количество слов в текстовом файле и определит самое часто встречающееся слово. Результатом выполнения задачи будет: скриншот файла со статьей, листинг кода, и вывод в консоль, в котором будет указана вся необходимая информация.
 
 ```python
-from collections import Counter
-with open('aaa.txt', 'r', encoding='utf-8') as file:
-    text = file.read()
-words = text.split()
-word_count = len(words)
-word_freq = Counter(words)
-most_common_word, most_common_count = word_freq.most_common(1)[0]
-print(f'Количество слов: {word_count}')
-print(f'Самое частое слово: "{most_common_word}" (встречается {most_common_count} раз)')
+def number_of_words(file):
+    
+    words = []  
+    summa = []
+    word_count = {}  
+
+    with open(file, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.lower().split()
+            len_of_line = len(line)
+            words.append((line, len_of_line))
+
+            for word in line:
+                if word in word_count:
+                    word_count[word] += 1  
+                else:
+                    word_count[word] = 1
+        
+        for i, v in words:
+            summa.append(v)
+        
+        print(f'Всего слов в статье: {sum(summa)}')
+
+    word_with_maximus = max(word_count, key=word_count.get)
+    maximus = max(word_count.values())
+
+    print(f'самое часто повторяющееся слово в тексте: {word_with_maximus}\nОно повторяется: {maximus} раз')
+
+
+number_of_words('input.txt')
+
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/52ed6f7f-a06e-4db8-9c5a-52cf5d9c8111)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/711.png)
 
-Использованный текст:
-
-![image](https://github.com/user-attachments/assets/75a47bb0-0c79-4053-a2f3-9d31f602729c)
 
 ## Выводы
 Программа показывает общее количество слов и самое частое слово с его частотой.
@@ -244,7 +262,7 @@ while True:
         print("Неверный ввод. Попробуйте снова.")
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/a2d4a055-7321-41ca-a541-e0747d2d8c75)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/712.png)
 
 ## Выводы
 Программа позволяет добавлять и показывать записи расходов.
@@ -272,7 +290,7 @@ def text_statistics(filename):
 text_statistics('aaa.txt')
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/a0deefea-5151-4e71-8289-0518212c943d)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/713.png)
 
 ## Выводы
 Программа выводит количество букв, слов и строк из файла. 
@@ -303,7 +321,7 @@ print(censored_sentence)
 
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/709998de-6c74-45e7-96b2-7305cda7a1d3)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/714.png)
 
 ## Выводы
 Программа заменяет запрещенные слова в вводимом предложении на звездочки.
@@ -317,10 +335,10 @@ def print_lines(filename):
     with open(filename, 'r', encoding='utf-8') as file:
         for line_num, line in enumerate(file, 1):
             print(f"{line_num}: {line.strip()}")
-print_lines('aaa.txt')
+print_lines('input.txt')
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/8018284b-1d06-4085-bff7-39c9bd6f6240)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/715.png)
 
 ## Выводы
 Программа выводит строки файла с их номерами.
