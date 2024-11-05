@@ -35,7 +35,7 @@ a = input("Введите имя: ")
 print(person.guess_name(a))
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/470f70eb-aa4b-4925-bc98-a58178cef2a4)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/91.png)
 
 ## Выводы
 - __init__(self, name): конструктор, который принимает имя и сохраняет его в атрибуте name.
@@ -58,7 +58,7 @@ ice_cream1 = IceCream("шоколадом")
 ice_cream1.display()
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/034ca6f8-318f-42f5-9cca-d8a1b09afc63)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/92.png)
 
 ## Выводы
 Код демонстрирует простую реализацию класса IceCream, который может иметь дополнительные ингредиенты (топпинги), и предоставляет способ отображать информацию о мороженом.
@@ -83,7 +83,7 @@ print(encapsulation.get_value())
 del encapsulation
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/c17ca1a9-6183-4a29-a48c-34a603005a62)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/93.png)
 
 ## Выводы
 Код демонстрирует принцип инкапсуляции в Python, где доступ к приватному полю осуществляется только через специальные методы set_value() и get_value().
@@ -109,7 +109,7 @@ print(f"{cat.name} - {cat.species}")
 print(f"{dog.name} - {dog.species}")
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/23503d07-0bac-4315-b88a-0315494faccd)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/94.png)
 
 ## Выводы
 - Создан базовый класс Mammal, который имеет атрибут species.
@@ -137,7 +137,7 @@ def greet_in_languages():
 greet_in_languages()
 ```
 ### Результат.
-![image](https://github.com/user-attachments/assets/d97b67d1-f768-434b-a4b0-7521c2a8a4e2)
+![image](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/95.png)
 
 ## Выводы
 Код демонстрирует пример использования статических методов и переменных в Python для реализации приветствий на разных языках.
