@@ -265,7 +265,7 @@ Gardener.knowledge_base()
 bush = TomatoBush(4)
 
 # Создание садовника и назначение его на куст томатов
-gardener = Gardener('Андрей', bush)
+gardener = Gardener('Катя', bush)
 
 # Уход за кустом и попытка сбора урожая
 gardener.work()
@@ -277,6 +277,18 @@ gardener.work()
 gardener.harvest()
 
 ```
+### Тест 1. Вызов справки.
+![Меню](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/911.png)
+### Тест 2. Создание объектов классов TomatoBush и Gardener.
+![Меню](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/912.png)
+### Тест 3. Ухаживание за кустом через объект класса Gardener.
+![Меню](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/913.png)
+### Тест 4. Попытка сбора недозревших помидоров. Продолжение ухаживания.
+![Меню](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/913.png)
+### Тест 5. Сбор урожая.
+![Меню](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/000.png)
+### Результат.
+![Меню](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/0000.png)
 ## Выводы
 Класс Tomato:
 - states: Статическое свойство, описывающее стадии созревания помидоров (отсутствует, цветение, зеленый, красный).
