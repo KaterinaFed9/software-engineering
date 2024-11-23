@@ -136,7 +136,6 @@ print(f"200-е число Фибоначчи: {fibonacci_numbers[-1]}")
 ## Самостоятельная работа 2
 ### К коду предыдущей задачи добавьте запоминание каждого числа Фибоначчи в файл “fib.txt”, при этом каждое число должно находиться на отдельной строчке. Результатом выполнения задачи будет листинг кода и скриншот получившегося файла
 ```python
-
 def fib(n):
     a, b = 1, 1
     for _ in range(n):
@@ -147,10 +146,11 @@ def fib(n):
 with open('fib.txt', 'w') as f:
     fibonacci_numbers = fib(200)
     f.writelines(f"{num}\n" for num in fibonacci_numbers)
+```
 
 ### Результат.
 
-![](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/117.png)
+![](https://github.com/KaterinaFed9/software-engineering/blob/main/pic%7C/117.png). 
 ## Вывод
 
 В этом упражнении я применила метод записи данных в текстовый файл с использованием функции **writelines()**. Также я освежила в памяти, что в Python можно использовать символ `_` для записи переменной, и потренировалась в применении инструкции yield.
